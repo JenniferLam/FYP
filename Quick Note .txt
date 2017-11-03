@@ -1,0 +1,5 @@
+Quick Note for Weka
+
+How to import data in Weka?
+https://machinelearningmastery.com/load-csv-machine-learning-data-weka/
+

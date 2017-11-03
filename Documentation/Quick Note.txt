@@ -1,0 +1,26 @@
+Quick Note for Weka Data Mining
+
+Data Import
+CSV Format
+- the values should exclude ' " + =, etc, otherwise, error
+
+How to import data in Weka?
+https://machinelearningmastery.com/load-csv-machine-learning-data-weka/
+
+
+
+ARFF Format
+1. Choose "Tools" in the Weka Start Menu
+2. Choose Arff Viewer
+3. Open file and choose the csv files
+4. Save as .arff
+
+Out of heap size
+- Open the cmd and go to Weka directory
+- Run "java -Xmx500m -jar weka.jar"
+
+IBM Teaching for Weka Data Mining
+https://www.ibm.com/developerworks/library/os-weka2/
+
+DBSCAN Python Code
+https://github.com/choffstein/dbscan

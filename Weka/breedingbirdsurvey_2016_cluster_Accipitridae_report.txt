@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2016_cluster_Accipitridae
+Instances:    4271
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 13
+Within cluster sum of squared errors: 8351.394920785924
+
+Initial starting points (random):
+
+Cluster 0: 840,7,ARKANSAS,13,HOLLYWOOD,34.034493,-93.251396,2016,3390,Accipitridae,1
+Cluster 1: 840,91,WISCONSIN,44,MANAWA,44.425467,-88.951379,2016,3520,Accipitridae,2
+Cluster 2: 124,68,Ontario,203,STRATHROY,42.94872,-81.65363,2016,3370,Accipitridae,2
+Cluster 3: 840,52,MISSOURI,317,MOSELLE,38.484765,-90.943116,2016,3430,Accipitridae,1
+Cluster 4: 840,91,WISCONSIN,39,STRATFORD,44.683281,-71.586876,2016,3520,Accipitridae,2
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                                 (4271.0)     (1258.0)      (538.0)      (573.0)     (1329.0)      (573.0)
+==========================================================================================================
+countrynum                        743.941          840          840          124          840          840
+statenum                           51.435      22.1844      84.7695      42.0244      64.1776      64.2112
+statename                           TEXAS     COLORADO      WYOMING      Alberta        TEXAS     VIRGINIA
+Route                            157.8492     153.1097      76.8513     178.5218     181.4409     168.9145
+routename                        LAKEVIEW     LAKEVIEW      LORAINE   CLEAR LAKE      PULASKI       JORDAN
+latitude                          40.4701       37.045      43.3319      50.0853      38.0502         41.3
+longitude                        -97.2528     -98.6956    -103.1883    -100.9418      -92.871     -94.9861
+Year                                 2016         2016         2016         2016         2016         2016
+Aou                             3384.3184    3376.6383    3376.9424    3390.5218    3359.4364    3459.6126
+family                       Accipitridae Accipitridae Accipitridae Accipitridae Accipitridae Accipitridae
+SpeciesTotal                       2.6188       3.1208       2.5446       2.3805       2.5041       2.0908
+
+
+
+
+Time taken to build model (full training data) : 0.1 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      1258 ( 29%)
+1       538 ( 13%)
+2       573 ( 13%)
+3      1329 ( 31%)
+4       573 ( 13%)
+

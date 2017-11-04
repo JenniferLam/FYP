@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2016_cluster_Aegithalidae
+Instances:    106
+Attributes:   11
+              ï»¿countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 6
+Within cluster sum of squared errors: 146.08638208663768
+
+Initial starting points (random):
+
+Cluster 0: 840,33,IDAHO,25,'MAGIC MTN',42.331156,-114.279453,2016,7430,Aegithalidae,1
+Cluster 1: 840,14,CALIFORNIA,32,PARKFIELD,35.808678,-120.530594,2016,7430,Aegithalidae,4
+Cluster 2: 840,14,CALIFORNIA,189,COYOTE,37.25217,-121.677434,2016,7430,Aegithalidae,11
+Cluster 3: 840,89,WASHINGTON,72,MUKILTEO,47.922072,-122.300217,2016,7430,Aegithalidae,5
+Cluster 4: 840,89,WASHINGTON,66,'BAY VIEW',48.537498,-122.471993,2016,7430,Aegithalidae,1
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                             Cluster#
+Attribute                  Full Data                0                1                2                3                4
+                             (106.0)           (25.0)           (50.0)           (17.0)            (6.0)            (8.0)
+=========================================================================================================================
+ï»¿countrynum               812.9811           811.36              840         713.6471              840              840
+statenum                     34.6887            65.64            13.66               13          85.6667            77.25
+statename                 CALIFORNIA       NEW MEXICO       CALIFORNIA       CALIFORNIA       WASHINGTON       WASHINGTON
+Route                       182.0377            138.8           193.48         305.0588          79.1667           61.375
+routename                   PRESCOTT Silver Skagit Rd         PRESCOTT         CUTTER 2         TUALATIN       FISH CREEK
+latitude                      38.493          35.4948          37.4971           39.193          46.9157          46.2823
+longitude                  -115.4637        -103.2763        -118.0457        -120.2784        -122.8714        -121.6249
+Year                            2016             2016             2016             2016             2016             2016
+Aou                             7430             7430             7430             7430             7430             7430
+family                  Aegithalidae     Aegithalidae     Aegithalidae     Aegithalidae     Aegithalidae     Aegithalidae
+SpeciesTotal                  5.7264              4.4             3.86          14.8235           6.1667            1.875
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       25 ( 24%)
+1       50 ( 47%)
+2       17 ( 16%)
+3        6 (  6%)
+4        8 (  8%)
+

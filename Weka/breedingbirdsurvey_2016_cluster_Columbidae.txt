@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2016_cluster_Columbidae
+Instances:    4992
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 14
+Within cluster sum of squared errors: 9743.369594121177
+
+Initial starting points (random):
+
+Cluster 0: 840,72,PENNSYLVANIA,25,ROSECRANS,41.071225,-77.293999,2016,3131,Columbidae,1
+Cluster 1: 840,72,PENNSYLVANIA,47,DUVALL,40.160728,-80.345627,2016,3160,Columbidae,12
+Cluster 2: 840,34,ILLINOIS,1,GUILFORD,42.210196,-90.060372,2016,3160,Columbidae,38
+Cluster 3: 840,83,TEXAS,109,ROTAN,32.887554,-100.626947,2016,3160,Columbidae,15
+Cluster 4: 840,89,WASHINGTON,50,NIGHTHAWK,48.755641,-119.66333,2016,3131,Columbidae,10
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                                 (4992.0)      (587.0)     (1608.0)      (974.0)     (1099.0)      (724.0)
+==========================================================================================================
+countrynum                       755.8069          124          840          840          840          840
+statenum                          52.5377      49.0733      53.5075      19.4764      61.0792      84.7044
+statename                           TEXAS      Ontario PENNSYLVANIA   CALIFORNIA        TEXAS    WISCONSIN
+Route                            144.9665     168.8535      72.6891     211.9466     161.5105     170.9061
+routename                          ATHENS    DUCK LAKE        DOVER      HARMONY LAG ATASCOSA      MT HOOD
+latitude                          39.5419      47.9958      40.3957      35.4769      35.7222      42.0587
+longitude                        -95.1428     -91.6993     -89.4121      -99.681     -99.1022     -98.5471
+Year                                 2016         2016         2016         2016         2016         2016
+Aou                             6588.5475    4356.1635    3163.5547    4554.9209   16805.1975    3232.8177
+family                         Columbidae   Columbidae   Columbidae   Columbidae   Columbidae   Columbidae
+SpeciesTotal                      19.6126       10.833      26.0155      21.9959      14.5823      16.9392
+
+
+
+
+Time taken to build model (full training data) : 0.1 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       587 ( 12%)
+1      1608 ( 32%)
+2       974 ( 20%)
+3      1099 ( 22%)
+4       724 ( 15%)
+

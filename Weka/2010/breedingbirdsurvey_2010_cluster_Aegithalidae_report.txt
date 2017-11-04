@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2010_cluster_Aegithalidae
+Instances:    98
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 9
+Within cluster sum of squared errors: 123.70889380776909
+
+Initial starting points (random):
+
+Cluster 0: 840,89,WASHINGTON,17,'BUNKER HILL',46.260399,-123.178062,2010,7430,Aegithalidae,5
+Cluster 1: 840,69,OREGON,339,Twickenham,44.669185,-120.12219,2010,7430,Aegithalidae,1
+Cluster 2: 840,89,WASHINGTON,242,'MENDOTA 3',46.726114,-122.86911,2010,7430,Aegithalidae,6
+Cluster 3: 840,14,CALIFORNIA,186,'MARK WEST',38.549873,-122.719303,2010,7430,Aegithalidae,6
+Cluster 4: 840,17,COLORADO,308,'BAXTER PASS',39.443328,-108.954895,2010,7430,Aegithalidae,2
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                     Cluster#
+Attribute              Full Data            0            1            2            3            4
+                          (98.0)        (6.0)       (14.0)        (6.0)       (59.0)       (13.0)
+=================================================================================================
+countrynum              818.0816          840          840          840     803.5932          840
+statenum                 36.0204           89      70.4286           83       13.322      55.8462
+statename             CALIFORNIA   WASHINGTON       OREGON        TEXAS   CALIFORNIA   NEW MEXICO
+Route                   183.4184      80.8333     279.7857          142     200.2542      69.6923
+routename               PRESCOTT PORT ANGELES   WALKER CAN   AGUA NUEVA     PRESCOTT      KAIBITO
+latitude                 38.4964       47.287       41.737      30.0973      38.4786      34.9062
+longitude              -115.8084    -122.8602    -112.0256     -99.9306    -119.5756    -106.8586
+Year                        2010         2010         2010         2010         2010         2010
+Aou                         7430         7430         7430         7430         7430         7430
+family              Aegithalidae Aegithalidae Aegithalidae Aegithalidae Aegithalidae Aegithalidae
+SpeciesTotal               5.898       3.1667       5.2143       3.3333       6.3051       7.2308
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       6 (  6%)
+1      14 ( 14%)
+2       6 (  6%)
+3      59 ( 60%)
+4      13 ( 13%)
+

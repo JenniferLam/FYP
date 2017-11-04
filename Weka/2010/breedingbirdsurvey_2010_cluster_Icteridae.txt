@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2010_cluster_Icteridae
+Instances:    13586
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 15
+Within cluster sum of squared errors: 26921.592466627648
+
+Initial starting points (random):
+
+Cluster 0: 840,17,COLORADO,216,PAONIA,38.838784,-107.602508,2010,5110,Icteridae,3
+Cluster 1: 840,80,'SOUTH CAROLINA',30,Ridgeway,34.319833,-80.9424,2010,5060,Icteridae,3
+Cluster 2: 840,83,TEXAS,56,MORTON,32.60779,-94.701781,2010,5110,Icteridae,1
+Cluster 3: 840,83,TEXAS,87,LONGFELLOW,30.146592,-102.408686,2010,5040,Icteridae,2
+Cluster 4: 840,58,'NEW HAMPSHIRE',14,MARLOW,43.076824,-72.212116,2010,4950,Icteridae,5
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                                (13586.0)     (2559.0)     (3843.0)     (3109.0)     (2188.0)     (1887.0)
+==========================================================================================================
+countrynum                       740.7107          840          840          840          840     125.1383
+statenum                          52.8805      19.3326      51.9089      64.6739      82.6293      46.4298
+statename                           TEXAS     COLORADO PENNSYLVANIA        TEXAS        TEXAS      Ontario
+Route                            133.8147     171.6358      71.0258     113.4056     204.7783     161.7414
+routename                          ESTHER       ESTHER      KRAEMER    INDIANOLA    INDIANOLA       JORDAN
+latitude                          40.3719      36.3296      39.9271      39.7256      39.6826      48.6234
+longitude                        -94.2484     -98.9187     -89.3694     -92.6627      -98.165     -95.9224
+Year                                 2010         2010         2010         2010         2010         2010
+Aou                             5020.5805    5035.1043    4979.9152     5093.038    4976.9803    5014.8765
+family                          Icteridae    Icteridae    Icteridae    Icteridae    Icteridae    Icteridae
+SpeciesTotal                      29.3289      27.7968      36.8361      23.5979      30.4351      24.2772
+
+
+
+
+Time taken to build model (full training data) : 0.26 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       2559 ( 19%)
+1       3843 ( 28%)
+2       3109 ( 23%)
+3       2188 ( 16%)
+4       1887 ( 14%)
+

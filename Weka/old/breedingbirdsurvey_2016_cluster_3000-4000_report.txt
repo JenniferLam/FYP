@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2016_cluster_3000-4000
+Instances:    17536
+Attributes:   10
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 29
+Within cluster sum of squared errors: 34695.52691188164
+
+Initial starting points (random):
+
+Cluster 0: 840,61,'NEW YORK',96,OGDENSBURG,44.698413,-75.465094,2016,3370,1
+Cluster 1: 840,67,OKLAHOMA,60,CASHION,35.769399,-97.691871,2016,3131,8
+Cluster 2: 840,88,VIRGINIA,13,ISOM,37.213802,-82.475099,2016,3370,1
+Cluster 3: 840,25,FLORIDA,66,NOBLETON,28.647107,-82.171937,2016,3370,1
+Cluster 4: 840,51,MISSISSIPPI,910,'TRACE ATTALA',32.92994,-89.61418,2016,3390,4
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                                (17536.0)     (2333.0)     (6355.0)     (3680.0)     (4159.0)     (1009.0)
+==========================================================================================================
+countrynum                       744.9879     125.8414          840          840          840          840
+statenum                          53.0462      49.7492      71.0178      55.5617      24.0531      57.8107
+statename                           TEXAS      Ontario        TEXAS        TEXAS   CALIFORNIA  MISSISSIPPI
+Route                            151.7467     165.9331       100.64       95.416     123.7627     761.6274
+routename                           OLNEY       JORDAN   MILL CREEK   CUMBERLAND     LAKEVIEW DISMAL SWAMP
+latitude                          40.0537      48.7596      40.1611      38.7168      36.8751       37.226
+longitude                        -94.0665     -93.0321     -94.6889     -90.4098      -97.573     -91.4209
+Year                                 2016         2016         2016         2016         2016         2016
+Aou                             3434.6948    3461.3249    3252.4301    3865.9283    3308.7781    3467.3142
+SpeciesTotal                       8.4913       4.5401       11.575       3.6856      10.7485       6.4281
+
+
+
+
+Time taken to build model (full training data) : 0.58 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       2333 ( 13%)
+1       6355 ( 36%)
+2       3680 ( 21%)
+3       4159 ( 24%)
+4       1009 (  6%)
+

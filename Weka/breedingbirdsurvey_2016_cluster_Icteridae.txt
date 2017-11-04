@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2016_cluster_Icteridae
+Instances:    12588
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 12
+Within cluster sum of squared errors: 24394.68248148077
+
+Initial starting points (random):
+
+Cluster 0: 840,54,NEBRASKA,35,BRADY,40.994641,-100.472031,2016,5070,Icteridae,22
+Cluster 1: 840,91,WISCONSIN,13,CUMBERLAND,39.893835,-81.67189,2016,4950,Icteridae,11
+Cluster 2: 840,17,COLORADO,47,DOYLEVILLE,38.511252,-106.554206,2016,5011,Icteridae,57
+Cluster 3: 840,88,VIRGINIA,52,APPOMATTOX,37.359137,-78.796868,2016,5070,Icteridae,1
+Cluster 4: 840,66,OHIO,67,XENIA,39.682171,-83.803627,2016,5110,Icteridae,80
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                                (12588.0)     (5013.0)     (2581.0)     (1813.0)     (1204.0)     (1977.0)
+==========================================================================================================
+countrynum                       731.8151     838.7145          840     668.9972          840     311.2393
+statenum                          53.0284       45.398      81.1507       9.5256      74.5274      62.4638
+statename                           TEXAS     ILLINOIS    WISCONSIN      Alberta        TEXAS PENNSYLVANIA
+Route                            136.6905      83.3002       67.136     162.7937     450.5332     147.8053
+routename                           DOVER       JORDAN   CUMBERLAND     LAKEVIEW       LOVELL        DOVER
+latitude                          40.8821       39.543      42.3952       40.526      35.1525      46.1183
+longitude                        -94.5464     -90.4483     -97.1316    -107.7583     -97.0362     -87.9303
+Year                                 2016         2016         2016         2016         2016         2016
+Aou                             5020.5422    5021.3886    5019.2348    5021.3001    5021.8181    5018.6308
+family                          Icteridae    Icteridae    Icteridae    Icteridae    Icteridae    Icteridae
+SpeciesTotal                      25.5485      25.6725      29.4963      26.8268      19.3837      22.6626
+
+
+
+
+Time taken to build model (full training data) : 0.18 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       5013 ( 40%)
+1       2581 ( 21%)
+2       1813 ( 14%)
+3       1204 ( 10%)
+4       1977 ( 16%)
+

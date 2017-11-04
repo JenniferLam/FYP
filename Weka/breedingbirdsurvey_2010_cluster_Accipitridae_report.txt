@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2010_cluster_Accipitridae
+Instances:    4108
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 12
+Within cluster sum of squared errors: 8123.30187119752
+
+Initial starting points (random):
+
+Cluster 0: 840,17,COLORADO,40,'RED CLIFF',39.544267,-106.220612,2010,3370,Accipitridae,1
+Cluster 1: 840,89,WASHINGTON,182,'Scootney Reservoir',46.766552,-119.04624,2010,3310,Accipitridae,3
+Cluster 2: 840,72,PENNSYLVANIA,33,'BOW BRIDGE',41.958869,-76.06586,2010,3370,Accipitridae,2
+Cluster 3: 840,63,'NORTH CAROLINA',218,'HULLS XROADS',35.508922,-81.456478,2010,3390,Accipitridae,1
+Cluster 4: 840,42,LOUISIANA,30,GLENCOE,38.721331,-84.823746,2010,3290,Accipitridae,3
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                                 (4108.0)      (454.0)     (1495.0)      (392.0)      (535.0)     (1232.0)
+==========================================================================================================
+countrynum                       750.2386     486.7313          840     308.4796          840          840
+statenum                          50.2992      10.2952      70.2154      66.4413      70.7364       26.862
+statename                           TEXAS     COLORADO      WYOMING PENNSYLVANIA        TEXAS   CALIFORNIA
+Route                            152.5686     199.8612      64.8749     114.7832     512.2486      97.3856
+routename                         BERWICK   SUMMERVIEW       ESTHER         ELVA         GLEN      BERWICK
+latitude                          40.0604      47.3263      41.6097       46.341      35.2791      35.5809
+longitude                        -97.0597    -114.0872     -96.7843     -87.8771     -96.4814     -94.2921
+Year                                 2010         2010         2010         2010         2010         2010
+Aou                             3382.0041    3405.2093    3385.1365    3383.2423    3381.2393    3369.5901
+family                       Accipitridae Accipitridae Accipitridae Accipitridae Accipitridae Accipitridae
+SpeciesTotal                       2.5285       3.1718       2.3485        1.898       2.4636       2.7386
+
+
+
+
+Time taken to build model (full training data) : 0.07 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       454 ( 11%)
+1      1495 ( 36%)
+2       392 ( 10%)
+3       535 ( 13%)
+4      1232 ( 30%)
+

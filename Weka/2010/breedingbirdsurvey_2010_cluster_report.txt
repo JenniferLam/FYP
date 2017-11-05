@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2010_cluster
+Instances:    151067
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 27
+Within cluster sum of squared errors: 410767.845810062
+
+Initial starting points (random):
+
+Cluster 0: 840,46,MARYLAND,51,JENNINGS,39.673382,-79.163223,2010,6870,Parulidae,4
+Cluster 1: 840,89,WASHINGTON,8,CHEWELAH,48.290566,-117.77745,2010,5420,Emberizidae,11
+Cluster 2: 840,83,TEXAS,16,'GEORGE WEST',28.280719,-98.317558,2010,3200,Columbidae,3
+Cluster 3: 840,83,TEXAS,305,CHINQUAPIN,28.749689,-95.768662,2010,6121,Hirundinidae,2
+Cluster 4: 840,61,'NEW YORK',64,'ST JOHNSBURG',43.069762,-78.850655,2010,4120,Picidae,1
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                               (151067.0)    (45325.0)    (24090.0)    (41286.0)    (14279.0)    (26087.0)
+==========================================================================================================
+countrynum                       723.6139     810.0962     769.8861     831.7277     835.9384      298.039
+statenum                          52.3871      32.6347      58.1634      68.8141      60.7364      50.8042
+statename                           TEXAS   CALIFORNIA   WASHINGTON        TEXAS        TEXAS      Ontario
+Route                             147.117     127.3277     110.7318      83.3138     459.5649     145.0546
+routename                          HEBRON      BERWICK         GLEN   TOWN BLUFF ST VINCENT I     STRATTON
+latitude                          40.9822      39.0519      44.3549       38.947      37.4895      46.3542
+longitude                        -93.9409     -95.1992    -102.0368     -89.0728     -93.0568     -92.4669
+Year                                 2010         2010         2010         2010         2010         2010
+Aou                             5631.6109    6000.5045    5613.2968    5423.2486    5791.9826    5249.5652
+family                          Parulidae    Parulidae  Emberizidae    Icteridae Hirundinidae      Picidae
+SpeciesTotal                      13.9527      12.7138      13.9213      17.3638      14.9106      10.2118
+
+
+
+
+Time taken to build model (full training data) : 5.76 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       45325 ( 30%)
+1       24090 ( 16%)
+2       41286 ( 27%)
+3       14279 (  9%)
+4       26087 ( 17%)
+

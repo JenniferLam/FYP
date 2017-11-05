@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 5 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     breedingbirdsurvey_2016_cluster
+Instances:    145444
+Attributes:   11
+              countrynum
+              statenum
+              statename
+              Route
+              routename
+              latitude
+              longitude
+              Year
+              Aou
+              family
+              SpeciesTotal
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 35
+Within cluster sum of squared errors: 395049.8309783442
+
+Initial starting points (random):
+
+Cluster 0: 840,33,IDAHO,226,ALMO,42.210002,-113.84021,2016,6882,Passeridae,2
+Cluster 1: 840,72,PENNSYLVANIA,17,RIDGWAY,41.42076,-78.738778,2016,7040,Mimidae,5
+Cluster 2: 840,17,COLORADO,209,FLATTOPS,39.646815,-107.616966,2016,5690,Emberizidae,19
+Cluster 3: 840,50,MINNESOTA,18,'ST STEPHEN',45.702838,-94.284905,2016,6810,Parulidae,15
+Cluster 4: 840,83,TEXAS,393,PAIGE,30.070998,-97.228214,2016,4050,Picidae,1
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                              Cluster#
+Attribute                       Full Data            0            1            2            3            4
+                               (145444.0)    (37106.0)    (23642.0)    (20936.0)    (27589.0)    (36171.0)
+==========================================================================================================
+countrynum                       712.3552     800.5009     510.9525     600.0566     717.7384     814.4646
+statenum                          52.7947      35.6322       61.802      34.8172      54.7409      73.4347
+statename                         Ontario     COLORADO PENNSYLVANIA   CALIFORNIA    MINNESOTA        TEXAS
+Route                            150.4916     126.9095     136.8438     183.9323     116.8917     189.8758
+routename                           DOVER   MONTICELLO    SOUTH MTN     LAKEVIEW        DOVER       ATHENS
+latitude                          41.3036      38.3121      43.7911      44.7709      43.5364      39.0365
+longitude                        -93.9923     -93.0081     -87.3696    -107.7645     -89.4104     -94.8541
+Year                                 2016         2016         2016         2016         2016         2016
+Aou                             5647.8352    5348.2453    5482.1606    5736.0803    6551.6979    5322.9699
+family                          Parulidae   Tyrannidae    Icteridae  Emberizidae    Parulidae      Picidae
+SpeciesTotal                      13.0417      12.3893       18.577      13.5468      10.5641      11.6903
+
+
+
+
+Time taken to build model (full training data) : 6.98 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       37106 ( 26%)
+1       23642 ( 16%)
+2       20936 ( 14%)
+3       27589 ( 19%)
+4       36171 ( 25%)
+

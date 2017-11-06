@@ -1,0 +1,4 @@
+Association
+
+- how likely the species stay at that place under what condition (temperature, weather)?
+- identify the route (how likely the pattern will be)

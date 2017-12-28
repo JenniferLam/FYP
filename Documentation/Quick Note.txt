@@ -24,3 +24,7 @@ https://www.ibm.com/developerworks/library/os-weka2/
 
 DBSCAN Python Code
 https://github.com/choffstein/dbscan
+
+Database connection in Python
+https://www.tutorialspoint.com/python/python_database_access.htm
+

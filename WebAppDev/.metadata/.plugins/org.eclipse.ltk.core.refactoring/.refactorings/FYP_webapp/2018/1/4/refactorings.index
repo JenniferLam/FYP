@@ -1,0 +1,7 @@
+1516537738360	Move 'index.jsp' to 'WebContent'
+1516544817539	Delete element
+1516545153008	Move 'filter.jsp' to 'Prediction'
+1516545165592	Move 'main.jsp' to 'Main'
+1516545187354	Rename resource 'Prediction'
+1516545191083	Rename resource 'Main'
+1516545197228	Move 'result.jsp' to 'visualization'

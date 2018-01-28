@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=BIG5">
+<link href="main.css" type="text/css" rel="stylesheet">
+<link href="../common.css" type="text/css" rel="stylesheet">
+<title>Ecological Data Analysis</title>
+</head>
+
+<body>
+	<div id="header">
+		<h1>Ecological Data Analysis</h1>
+		<div id="shortcut">
+			<a href="../prediction/dataPred.html">Data Prediction</a> 
+			<a href="../visualization/dataVisual.html">Data Visualization</a>
+		</div>
+	</div>
+	<div id="background_image">
+		<img src="background.jpg" alt="">
+
+	</div>
+	<div id="startAnalysis">
+		<p>Data Prediction</p>
+		<ul>
+			<li>Provide prediction based on data import</li>
+			<li>Help to detect the changes in ecosystem</li>
+			<li>Trend changes, phenomenon and occurrence of species</li>
+		</ul>
+	</div>
+
+	<div id="startVisual">
+		<p>Data Visualization</p>
+		<ul>
+			<li>Use deck.gl by Uber for visualization</li>
+			<li>Interact with your data in the charts and maps</li>
+		</ul>
+	</div>
+	<div id="footer">
+		<p>Created by Lam Wing Ting in 2017</p>
+		<p>Copyright belong to City University of Hong Kong</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+	font:Arial, Helvetica, sans-serif;
+}
+#header{
+	float:left;
+	width:100%;
+	height:20%;
+	display:inline-block;
+	background-color:green;
+}
+#shortcut{
+	float:right;
+}
+#footer{
+	background-color:black;
+	width:100%;
+	color: white;
+	text-align:right;
+}

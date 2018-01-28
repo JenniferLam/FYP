@@ -996,7 +996,7 @@ Date,Species Group,Species,Location,Latitude,Longitude,Coordinate System
 5/6/2007,Dinoflagellates,Cochlodinium spp.,"Yung Shue Wan, Lamma Island",22.22751205,114.1058375, WGS84
 6/6/2007,Dinoflagellates,Cochlodinium spp.,"Hung Shing Yeh Beach, Lamma Island",22.21804153,114.1189642, WGS84
 6/6/2007,Dinoflagellates,Cochlodinium spp.,North of Lantau Island,22.32275833,113.8944127, WGS84
-6/6/2007,Dinoflagellates,Cochlodinium spp.,"St. Stephen's Beach, Stanley, Hong Kong Island",22.21255961,114.2146262, WGS84
+6/6/2007,Dinoflagellates,Cochlodinium spp.,"St. Stephens Beach, Stanley, Hong Kong Island",22.21255961,114.2146262, WGS84
 6/6/2007,Dinoflagellates,Cochlodinium spp.,Victoria Harbour near Quarry Bay,22.28865754,114.2289093, WGS84
 7/6/2007,Dinoflagellates,Cochlodinium spp.,Ma Wan Tung Wan Beach,22.35022397,114.0630219, WGS84
 7/6/2007,Dinoflagellates,Cochlodinium spp.,Tung Lung Chau Fish Culture Zone,22.25666669,114.2819842, WGS84
@@ -1041,7 +1041,7 @@ Date,Species Group,Species,Location,Latitude,Longitude,Coordinate System
 10/4/2008,Others,Fibrocapsa japonica,"Silver Mine Bay Beach, Lantau Island",22.27061377,114.0003316, WGS84
 22/4/2008,Others,Fibrocapsa japonica,Inner Port Shelter (Sai Kung Hoi),22.38160529,114.2786138, WGS84
 31/5/2008,Dinoflagellates,Noctiluca scintillans,"Lo So Shing Beach, Lamma Island",22.2043792,114.1219879, WGS84
-10/6/2008,Diatom,Skeletonema costatum,Cape D'Aguilar (Hok Tsui),22.20748307,114.2624826, WGS84
+10/6/2008,Diatom,Skeletonema costatum,Cape DAguilar (Hok Tsui),22.20748307,114.2624826, WGS84
 22/6/2008,Diatom,Thalassiosira tealata,West Lamma Channel,22.23148837,114.0803895, WGS84
 25/11/2008,Others,Mesodinium rubrum,Po Toi O Fish Culture Zone,22.27498249,114.2940628, WGS84
 3/12/2008,Others,Mesodinium rubrum,"Deep Water Bay, Hong Kong Island",22.23565682,114.1765917, WGS84
@@ -1158,7 +1158,7 @@ Date,Species Group,Species,Location,Latitude,Longitude,Coordinate System
 1/5/2011,Dinoflagellates,Cochlodinium polykrikoides,"Pui O Beach, Lantau Island",22.23949844,113.9749886, WGS84
 2/5/2011,Dinoflagellates,Cochlodinium polykrikoides,"Clear Water Bay First Beach, Sai Kung",22.29095789,114.2912044, WGS84
 2/5/2011,Dinoflagellates,Noctiluca scintillans,"Clear Water Bay First Beach, Sai Kung",22.29095789,114.2912044, WGS84
-3/5/2011,Dinoflagellates,Noctiluca scintillans,"St. Stephen's Beach, Stanley, Hong Kong Island",22.21292918,114.214666, WGS84
+3/5/2011,Dinoflagellates,Noctiluca scintillans,"St. Stephens Beach, Stanley, Hong Kong Island",22.21292918,114.214666, WGS84
 14/5/2011,Dinoflagellates,Gonyaulax polygramma,"Silverstrand Beach, Sai Kung",22.3229599,114.2724311, WGS84
 13/6/2011,Dinoflagellates,Takayama pulchella,Yim Tin Tsai Fish Culture Zone,22.45397809,114.2075091, WGS84
 15/8/2011,Dinoflagellates,Protopolykrikos distortus,"Tong Fuk Beach, Lantau Island to Soko Islands",22.1961617,113.9498023, WGS84
@@ -1205,7 +1205,7 @@ Date,Species Group,Species,Location,Latitude,Longitude,Coordinate System
 23/8/2011,Dinoflagellates,Protopolykrikos distortus,"Cyberport, Hong Kong Island",22.26138157,114.1211841, WGS84
 24/8/2011,Dinoflagellates,Protopolykrikos distortus,"Hung Shing Yeh Beach, Lamma Island",22.2165819,114.1191342, WGS84
 29/10/2011,Others,Phaeocystis globosa,"Deep Water Bay Beach, Hong Kong Island",22.24282723,114.1879756, WGS84
-29/10/2011,Others,Phaeocystis globosa,"St. Stephen's Beach, Stanley, Hong Kong Island",22.21298343,114.2147631, WGS84
+29/10/2011,Others,Phaeocystis globosa,"St. Stephens Beach, Stanley, Hong Kong Island",22.21298343,114.2147631, WGS84
 2/11/2011,Others,Phaeocystis globosa,Tai Tam Bay near Hairpin Beach,22.22347513,114.2163508, WGS84
 12/11/2011,Others,Phaeocystis globosa,"Silver Mine Bay Beach, Lantau Island",22.27011927,114.00082, WGS84
 12/2/2012,Dinoflagellates,Noctiluca scintillans,Shing Mun River,22.39098564,114.2025431, WGS84
@@ -1307,7 +1307,7 @@ Date,Species Group,Species,Location,Latitude,Longitude,Coordinate System
 2/6/2014,Dinoflagellates,Noctiluca scintillans,"Middle Bay Beach, Hong Kong Island",22.23080706,114.1976279, WGS84
 2/6/2014,Dinoflagellates,Noctiluca scintillans,"Repulse Bay Beach, Hong Kong Island",22.23510984,114.1961262, WGS84
 2/6/2014,Dinoflagellates,Noctiluca scintillans,"South Bay Beach, Hong Kong Island",22.22480067,114.1963359, WGS84
-2/6/2014,Dinoflagellates,Noctiluca scintillans,"St. Stephen's Beach, Hong Kong Island",22.21290161,114.2148011, WGS84
+2/6/2014,Dinoflagellates,Noctiluca scintillans,"St. Stephens Beach, Hong Kong Island",22.21290161,114.2148011, WGS84
 3/6/2014,Dinoflagellates,Noctiluca scintillans,"Discovery Bay, Lantau Island",22.2899541,114.0236878, WGS84
 3/6/2014,Dinoflagellates,Noctiluca scintillans,"Hung Shing Yeh Beach, Lamma Island",22.21821286,114.1192195, WGS84
 3/6/2014,Dinoflagellates,Noctiluca scintillans,Junk Bay,22.28498602,114.2667612, WGS84

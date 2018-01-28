@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=BIG5">
+<link href="dataPred.css" type="text/css" rel="stylesheet">
+<link href="../common.css" type="text/css" rel="stylesheet">
+<title>Data Prediction</title>
+</head>
+
+
+<body>
+	<div id="header">
+		<h1>Ecological Data Analysis</h1>
+		<div id="shortcut">
+			<a href="../prediction/dataPred.html">Data Prediction</a> 
+			<a href="../visualization/dataVisual.html">Data Visualization</a>
+		</div>
+
+		<div id="footer">
+			<p>Created by Lam Wing Ting in 2017</p>
+			<p>Copyright belong to City University of Hong Kong</p>
+		</div>
+</body>
+</html>

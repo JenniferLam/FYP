@@ -1,0 +1,15 @@
+#header{
+	float:left;
+	width:100%;
+	height:30px;
+	display:inline-block;
+}
+#shortcut{
+	float:right;
+}
+#footer{
+	background-color:black;
+	width:100%;
+	color: white;
+	text-align:right;
+}

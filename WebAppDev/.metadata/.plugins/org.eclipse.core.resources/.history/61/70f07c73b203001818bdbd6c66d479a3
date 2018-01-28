@@ -1,0 +1,14 @@
+#startAnalysis{
+float:left;
+clear:left;
+width:50%;
+}
+
+#startVisual{
+	float:right;
+	width:50%;
+	
+}
+#background_image{
+	width:100%;
+}

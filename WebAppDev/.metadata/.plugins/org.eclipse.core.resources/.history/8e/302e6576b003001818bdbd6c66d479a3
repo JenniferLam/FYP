@@ -1,0 +1,10 @@
+#startAnalysis{
+float:left;
+clear:left;
+}
+
+#startVisual{
+	float:right;
+	clear:right;
+	
+}

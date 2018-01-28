@@ -5,3 +5,13 @@
 1516545187354	Rename resource 'Prediction'
 1516545191083	Rename resource 'Main'
 1516545197228	Move 'result.jsp' to 'visualization'
+1517070706703	Rename resource 'main.jsp'
+1517070727624	Rename resource 'filter.jsp'
+1517070734233	Rename resource 'result.jsp'
+1517070795782	Move folder
+1517070801724	Move 'main' to 'WebContent'
+1517085651941	Rename resource 'mainframe.css'
+1517093328326	Rename resource 'result.css'
+1517093332909	Rename resource 'result.html'
+1517093339139	Rename resource 'filter.css'
+1517093343441	Rename resource 'filter.html'

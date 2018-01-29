@@ -1,0 +1,65 @@
+#startAnalysis {
+	width: 50%;
+	height: 60%;
+	display: inline-block;
+	background-color: rgb(179, 179, 255);
+	opacity: 0.8;
+	float: left;
+}
+
+#startVisual {
+	width: 50%;
+	height: 60%;
+	display: inline-block;
+	background-color: rgb(255, 204, 153);
+	opacity: 0.9;
+}
+
+img {
+	width: 100%;
+	height: 350px;
+	/*opacity: 0.6;*/
+}
+
+#container {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+p.desc {
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	text-align: center;
+	color:white;
+}
+
+p.title_visual {
+	font-size: 30px;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+p.title_pred {
+	font-size: 30px;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+p.title_visual:hover {
+	background-color: rgb(255, 239, 204);
+}
+
+p.title_pred:hover {
+	background-color: rgb(230, 230, 255);
+}
+
+li {
+	text-align: left;
+	font-size: 18px;
+}

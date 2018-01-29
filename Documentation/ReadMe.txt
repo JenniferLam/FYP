@@ -6,3 +6,8 @@ Configuration please refer to the screenshots
 Jupyter Notebook
 - type jupyter notebook in cmd
 
+Oracle DB
+SID: fypDB
+Password: fyp123
+see screenshot for configuration details
+

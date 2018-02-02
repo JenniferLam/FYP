@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 10 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     Data_Picidae_2010_clustering
+Instances:    8945
+Attributes:   4
+              LATITUDE
+              LONGITUDE
+              AOU
+              SPECIESTOTAL
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 18
+Within cluster sum of squared errors: 175.59494007439292
+
+Initial starting points (random):
+
+Cluster 0: 51.979,-121.465,4130,17
+Cluster 1: 42.399,-88.915,4120,3
+Cluster 2: 33.754,-83.174,4050,3
+Cluster 3: 29.921,-101.241,3960,2
+Cluster 4: 44.833,-68.256,4050,3
+Cluster 5: 37.333,-78.983,4120,4
+Cluster 6: 40.803,-123.483,3930,1
+Cluster 7: 39.399,-89.831,4120,1
+Cluster 8: 45.828,-82.161,3930,3
+Cluster 9: 51.662,-115.407,3920,1
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                          Cluster#
+Attribute      Full Data         0         1         2         3         4         5         6         7         8         9
+                (8945.0)   (407.0)  (1567.0)  (1105.0)  (1001.0)   (937.0)  (1036.0)   (501.0)   (498.0)  (1274.0)   (619.0)
+============================================================================================================================
+LATITUDE         40.3785   50.3657   41.8251   34.9711   33.5892    44.761   33.2486   46.4632   39.3641   42.9191   46.7435
+LONGITUDE       -91.4986 -114.1442  -81.5218  -87.2089  -90.7831   -80.806  -88.3877 -118.2522 -111.9754  -80.1439 -117.3146
+AOU             4035.586 4124.6683 4109.2999  4054.152  3940.954 4036.0619 4095.2703 3933.9521 4120.5502 3935.6122 4029.3489
+SPECIESTOTAL      4.6054    3.8256    4.2482    3.1312    3.1928     4.334   11.9614    2.5669    6.2912    2.8265    2.9919
+
+
+
+
+Time taken to build model (full training data) : 0.88 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 0       407 (  5%)
+ 1      1567 ( 18%)
+ 2      1105 ( 12%)
+ 3      1001 ( 11%)
+ 4       937 ( 10%)
+ 5      1036 ( 12%)
+ 6       501 (  6%)
+ 7       498 (  6%)
+ 8      1274 ( 14%)
+ 9       619 (  7%)
+

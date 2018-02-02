@@ -1,0 +1,20 @@
+fileUpload = function(){
+	
+	
+	// Display response message
+	// 1. Loading... Please wait
+	// 2. The import is successful
+	// 3. Wrong column name
+	// 4. Wrong date format
+		
+}
+
+dataPrediction = function(){
+}
+
+printPredictionResult = function(){
+	
+}
+
+
+

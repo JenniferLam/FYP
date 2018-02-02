@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=BIG5">
+<link href="dataPred.css" type="text/css" rel="stylesheet">
+<link href="../common.css" type="text/css" rel="stylesheet">
+<script src="dataPred.js"></script>
+<script type="view" id="filterView">
+	
+	<form>
+		<p>Please choose the time range for prediction:</p>
+		<label>From</label>
+		<select id="dateFrom"></select>
+		<label>To</label>
+		
+		<p>Please choose the species or specific family for prediction:</p>
+		<select id="dataTo"></select>
+		<label>Family</label>
+		<select id="species></select>
+
+		<button type="submit" onsubmit="">Submit</button>
+		<span id="displayMsg"></span>
+	</form>
+	
+
+</script>
+<script type="view" id="resultView">
+	<p>Prediction Result</p>
+	<div id="predictResult"></div>
+
+</script>
+
+<title>Data Prediction</title>
+</head>
+
+
+<body>
+	<div id="header">
+		<h1>
+			<a href="../main/main.html">Ecological Data Analysis</a>
+		</h1>
+		<div id="shortcut">
+			<a href="../prediction/dataPred.html">Data Prediction</a> 
+			<a href="../visualization/dataVisual.html">Data Visualization</a>
+		</div>
+	</div>
+<div id="container">
+<h2>Data Predictation</h2>
+<ol>
+<li>Upload your data in csv file</li>
+<li>In the csv file, please follow the below format:</li>
+<ul>
+<table>
+
+
+</table>
+</ul>
+</ol>
+<p>Import Data:</p>
+<input type="file" name="uploadFile">
+<button type='submit'onsubmit="fileUpload()">Import</button>
+<span id="responseMsg"></span>
+
+
+<div id="filter">
+</div>
+
+
+</div>
+
+
+	<div id="footer">
+		<p>Created by Lam Wing Ting in 2017</p>
+		<p>Copyright belong to City University of Hong Kong</p>
+	</div>
+</body>
+</html>

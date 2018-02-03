@@ -48,7 +48,7 @@ SPECIESTOTAL      4.6054    3.8256    4.2482    3.1312    3.1928     4.334   11.
 
 
 
-Time taken to build model (full training data) : 0.88 seconds
+Time taken to build model (full training data) : 0.1 seconds
 
 === Model and evaluation on training set ===
 

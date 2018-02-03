@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 15 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     Data_Alcidae_2016_clustering
+Instances:    528
+Attributes:   4
+              LATITUDE
+              LONGITUDE
+              AOU
+              SPECIESTOTAL
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 2
+Within cluster sum of squared errors: 1.2489059031350471
+
+Initial starting points (random):
+
+Cluster 0: 48.163,-122.335,290,1
+Cluster 1: 38.341,-123.048,300,1
+Cluster 2: 56.46,-132.38,230,14
+Cluster 3: 40.415,-123.962,230,2
+Cluster 4: 57.922,-135.046,230,1
+Cluster 5: 47.922,-122.3,290,1
+Cluster 6: 54.031,-132.057,150,2
+Cluster 7: 57.813,-152.618,290,1
+Cluster 8: 48.42,-64.318,320,20
+Cluster 9: 48.42,-64.318,300,100
+Cluster 10: 56.46,-132.38,290,1
+Cluster 11: 54.031,-132.057,290,10
+Cluster 12: 47.019,-60.523,270,1
+Cluster 13: 50.681,-127.98,230,3
+Cluster 14: 54.031,-132.057,230,2
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                            Cluster#
+Attribute       Full Data          0          1          2          3          4          5          6          7          8          9         10         11         12         13         14
+                  (528.0)     (47.0)     (43.0)     (46.0)     (54.0)     (71.0)     (22.0)     (20.0)     (24.0)     (22.0)     (22.0)     (29.0)     (20.0)     (57.0)      (2.0)     (49.0)
+==============================================================================================================================================================================================
+LATITUDE          50.6963     48.163     38.341    56.9693    41.4252    58.2587     47.922     54.031     57.813      48.42      48.42      56.46     54.031    47.4216     50.681    54.8191
+LONGITUDE       -118.2729   -122.335   -123.048  -133.3704  -123.9029  -142.9524     -122.3   -132.057   -152.618    -64.318    -64.318    -132.38   -132.057   -59.8925    -127.98  -131.7815
+AOU              259.7917        290        300        230        230        230        290        150        290        320        300        290        290        270        230        230
+SPECIESTOTAL       8.3523          1          1    14.7391          2     3.9859          1          2          1         20        100          1         10          1          3     4.7551
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 0       47 (  9%)
+ 1       43 (  8%)
+ 2       46 (  9%)
+ 3       54 ( 10%)
+ 4       71 ( 13%)
+ 5       22 (  4%)
+ 6       20 (  4%)
+ 7       24 (  5%)
+ 8       22 (  4%)
+ 9       22 (  4%)
+10       29 (  5%)
+11       20 (  4%)
+12       57 ( 11%)
+13        2 (  0%)
+14       49 (  9%)
+

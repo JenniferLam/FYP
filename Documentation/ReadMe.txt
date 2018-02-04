@@ -1,3 +1,8 @@
+GitHub
+Username: tcpsawingting@gmail.com
+Password: Jennifer123
+
+
 Microsoft SQL Server 2017
 Instance Name: FYPSQL
 Password: Jennifer123
